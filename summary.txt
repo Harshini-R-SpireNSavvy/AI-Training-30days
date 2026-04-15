@@ -1,0 +1,11 @@
+Machine Learning (ML):
+Machine Learning is a way for computers to learn patterns from data and make decisions without being directly programmed. For example, it can be used to predict results, classify data, or recommend products.
+
+Large Language Models (LLM):
+LLMs are advanced AI models trained on large amounts of text data. They can understand and generate human-like text. Examples include chatbots that answer questions or help in writing.
+
+RAG (Retrieval-Augmented Generation):
+RAG is a method where the model first retrieves relevant information from a source and then generates an answer based on that. This helps in giving more accurate and updated responses.
+
+Agentic AI:
+Agentic AI refers to systems that can take actions on their own to complete tasks. Instead of just responding, they can plan, decide, and perform steps to achieve a goal.
