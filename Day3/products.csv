@@ -1,0 +1,11 @@
+product,order_date,quantity,price
+Laptop,2024-01-10,2,50000
+Mobile,2024-01-15,3,20000
+Tablet,2024-02-05,1,15000
+Laptop,2024-02-10,1,50000
+Mobile,2024-03-12,2,20000
+Headphones,2024-03-15,,2000
+Tablet,2024-04-01,3,15000
+Laptop,2024-04-05,2,
+Mobile,2024-05-10,1,20000
+Headphones,2024-05-15,5,2000
