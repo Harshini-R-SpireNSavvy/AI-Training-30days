@@ -1,0 +1,61 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-day16",
+    "name": "Day 16 — AI Stack API",
+    "description": "Import into Postman. Start the API: `python -m uvicorn app.main:app --host 127.0.0.1 --port 8000` from the Day16 folder.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{base_url}}/health"
+      },
+      "response": []
+    },
+    {
+      "name": "Chat — rate limit policy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"What is the API rate limit per minute?\"\n}"
+        },
+        "url": "{{base_url}}/v1/chat"
+      },
+      "response": []
+    },
+    {
+      "name": "Chat — remote work policy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"How many remote days are allowed per week?\"\n}"
+        },
+        "url": "{{base_url}}/v1/chat"
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    }
+  ]
+}

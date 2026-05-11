@@ -1,0 +1,10 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+sqlalchemy>=2.0.0
+python-dotenv>=1.0.0
+chromadb>=0.4.22
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Optional: PostgreSQL driver (install when using DATABASE_URL=postgresql+psycopg://...)
+psycopg[binary]>=3.1.0

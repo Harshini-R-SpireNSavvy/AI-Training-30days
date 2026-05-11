@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.env
+day16_local.db
+chroma_data/

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: day16-postgres
+    environment:
+      POSTGRES_USER: day16
+      POSTGRES_PASSWORD: day16
+      POSTGRES_DB: day16
+    ports:
+      - "5433:5432"
+    volumes:
+      - day16_pgdata:/var/lib/postgresql/data
+
+volumes:
+  day16_pgdata:
