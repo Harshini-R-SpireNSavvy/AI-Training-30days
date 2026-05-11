@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Q1",
+    "question": "What nominal DC voltage does Widget X require?",
+    "expect_idk": false,
+    "is_idk": false,
+    "best_distance": 0.48386135697364807,
+    "quality_1_to_5": 5,
+    "rationale": "Grounded answer with citations and key facts.",
+    "answer_preview": "Here is what the indexed documents support: - ## Electrical Widget X operates at a nominal voltage of 12 V DC. Acceptable input range is 11.4 V to 12.6 V. Peak current draw is 2.5 A during motor startup; steady-state current is 0.8 A.  Sources:   \u2022 [02_product_specs.md \u2014 chunk 1] (relevance distance 0.484)"
+  },
+  {
+    "id": "Q2",
+    "question": "How many paid vacation days do full-time employees accrue per year?",
+    "expect_idk": false,
+    "is_idk": false,
+    "best_distance": 0.4643039107322693,
+    "quality_1_to_5": 5,
+    "rationale": "Grounded answer with citations and key facts.",
+    "answer_preview": "Here is what the indexed documents support: - ## Time off Full-time employees accrue 22 paid vacation days per calendar year. Unused days roll over up to a maximum of 5 days into the next year. Carryover beyond that is forfeited unless an exception is approved by HR in writing.  Sources:   \u2022 [01_company_handbook.md \u2014 chunk 2] (relevance distance 0.464)"
+  },
+  {
+    "id": "Q3",
+    "question": "What is the API rate limit per minute for the public tier?",
+    "expect_idk": false,
+    "is_idk": false,
+    "best_distance": 0.4391610622406006,
+    "quality_1_to_5": 5,
+    "rationale": "Grounded answer with citations and key facts.",
+    "answer_preview": "Here is what the indexed documents support: - ## Rate limits The public API tier allows 100 requests per minute per API key. Burst allowance is 20 additional requests over a 10-second window. Exceeding limits returns HTTP 429 with a `Retry-After` header in seconds.  Sources:   \u2022 [05_api_reference.md \u2014 chunk 2] (relevance distance 0.439)"
+  },
+  {
+    "id": "Q4",
+    "question": "Within how many minutes must lab spills be reported to the supervisor?",
+    "expect_idk": false,
+    "is_idk": false,
+    "best_distance": 0.606900155544281,
+    "quality_1_to_5": 5,
+    "rationale": "Grounded answer with citations and key facts.",
+    "answer_preview": "Here is what the indexed documents support: - ## Incidents All spills and injuries must be reported to the lab supervisor within 15 minutes. The emergency eyewash station is located at the north end of Room B204. - # Laboratory Safety Guidelines  Sources:   \u2022 [03_safety_guidelines.md \u2014 chunk 3] (relevance distance 0.607)   \u2022 [03_safety_guidelines.md \u2014 chunk 0] (relevance distance 0.943)"
+  },
+  {
+    "id": "Q5",
+    "question": "What time should a new hire arrive at Building C on their first day?",
+    "expect_idk": false,
+    "is_idk": false,
+    "best_distance": 1.0158151388168335,
+    "quality_1_to_5": 5,
+    "rationale": "Grounded answer with citations and key facts.",
+    "answer_preview": "Here is what the indexed documents support: - ## First day Arrive at Building C reception at 09:00 on your start date. You will receive a badge, laptop, and instructions for IT setup. The default laptop image includes Python 3.11, Docker, and the company VPN client.  Sources:   \u2022 [04_onboarding_faq.md \u2014 chunk 1] (relevance distance 1.016)"
+  },
+  {
+    "id": "Q6",
+    "question": "According to the glossary, what does RAG stand for and what does it combine?",
+    "expect_idk": false,
+    "is_idk": false,
+    "best_distance": 0.8627307415008545,
+    "quality_1_to_5": 5,
+    "rationale": "Grounded answer with citations and key facts.",
+    "answer_preview": "Here is what the indexed documents support: - ## RAG Retrieval-augmented generation (RAG) combines search over a knowledge base with a language model so answers stay grounded in source documents.  Sources:   \u2022 [06_glossary.md \u2014 chunk 1] (relevance distance 0.863)"
+  },
+  {
+    "id": "Q7",
+    "question": "Is VPN required to access internal APIs from outside the office network?",
+    "expect_idk": false,
+    "is_idk": false,
+    "best_distance": 0.7896796464920044,
+    "quality_1_to_5": 5,
+    "rationale": "Grounded answer with citations and key facts.",
+    "answer_preview": "Here is what the indexed documents support: - ## Security Laptops must use full-disk encryption and a screen lock after 5 minutes of inactivity. VPN is required for access to internal APIs from outside the office network.  Sources:   \u2022 [01_company_handbook.md \u2014 chunk 3] (relevance distance 0.790)"
+  },
+  {
+    "id": "Q8",
+    "question": "Who won the FIFA World Cup in 2022, and what was the final score?",
+    "expect_idk": true,
+    "is_idk": true,
+    "best_distance": 1.8228352069854736,
+    "quality_1_to_5": 5,
+    "rationale": "Correctly abstained with IDK-style response.",
+    "answer_preview": "I do not have enough information in the provided documents to answer that confidently. If this is important, try rephrasing or ask about topics covered in the handbook, product specs, safety, onboarding, API reference, or glossary."
+  },
+  {
+    "id": "Q9",
+    "question": "What is the name of the CEO's pet dog?",
+    "expect_idk": true,
+    "is_idk": true,
+    "best_distance": 1.5326658487319946,
+    "quality_1_to_5": 5,
+    "rationale": "Correctly abstained with IDK-style response.",
+    "answer_preview": "I do not have enough information in the provided documents to answer that confidently. If this is important, try rephrasing or ask about topics covered in the handbook, product specs, safety, onboarding, API reference, or glossary."
+  },
+  {
+    "id": "Q10",
+    "question": "What is the maximum container size for flammable solvents allowed on the bench?",
+    "expect_idk": false,
+    "is_idk": false,
+    "best_distance": 0.26163843274116516,
+    "quality_1_to_5": 5,
+    "rationale": "Grounded answer with citations and key facts.",
+    "answer_preview": "Here is what the indexed documents support: - ## Chemical storage Flammable solvents must be stored in the approved flammables cabinet only. Maximum container size on the bench is 500 mL unless a hot work permit is on file.  Sources:   \u2022 [03_safety_guidelines.md \u2014 chunk 2] (relevance distance 0.262)"
+  }
+]
